@@ -4,6 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+<<<<<<< HEAD
 <?php
 include('include.php');
 $Announcements = mysqli_query($DBconn,'SELECT * FROM announce WHERE announce_published = 1 ORDER BY announce_start DESC, announce_ID DESC LIMIT 5');
@@ -46,5 +47,18 @@ echo "<br>";
         </tr>        
      </table>
        </table>
+=======
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <?php
+print(Date());
+        ?>
+        <P>This is the first default page for the backstage management portion of Fabula.</p>
+        <p>This project is a work in progress.</p>
+>>>>>>> e162efb9947a05d7ae2213f677f07397d8f0fb91
     </body>
 </html>
